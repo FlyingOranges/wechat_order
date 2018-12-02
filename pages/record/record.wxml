@@ -1,0 +1,104 @@
+<!--pages/record/record.wxml-->
+<view class="container">
+
+  <view class='cash'>
+    <view class='cash-text'>
+      <image class='cash-icon' src='../../image/icon/cash.jpg'></image>
+      <text class='cash-txt'>现金</text>
+    </view>
+    <view class='cash-number'>
+      <input type="digit" class='money-input' maxlength="10" placeholder="数额" value=''/>
+    </view>
+  </view>
+
+  <view class='cash-div'>
+    <view class='cash-title'>
+      <text class='cash-title-text-left'>虚拟账户</text>
+      <!-- <text class='cash-title-text-right'>32142.00</text> -->
+    </view>
+
+    <view class='cash-list'>
+      <view class='cash-text'>
+        <image class='cash-icon' src='../../image/icon/alipay.jpg'></image>
+        <text class='cash-txt'>支付宝</text>
+      </view>
+      <view class='cash-number'>
+        <input type="digit" class='money-input' maxlength="10" placeholder="数额" value=''/>
+      </view>
+    </view>
+
+    <view class='cash-list'>
+      <view class='cash-text'>
+        <image class='cash-icon' src='../../image/icon/wechat.jpg'></image>
+        <text class='cash-txt'>微信钱包</text>
+      </view>
+      <view class='cash-number'>
+        <input type="digit" class='money-input' maxlength="10" placeholder="数额" value=''/>
+      </view>
+    </view>
+  </view>
+
+  <view class='cash-div'>
+    <view class='cash-title'>
+      <text class='cash-title-text-left'>银行卡账户</text>
+      <!-- <text class='cash-title-text-right'>
+        3652.00
+      </text> -->
+    </view>
+
+    <view class='cash-list'>
+      <view class='cash-text'>
+        <image class='cash-icon' src='../../image/icon/bank_of_china.jpg'></image>
+        <text class='cash-txt'>中国银行</text>
+      </view>
+      <view class='cash-number'>
+        <input type="digit" class='money-input' maxlength="10" placeholder="数额" value=''/>
+      </view>
+    </view>
+
+    <view class='cash-list'>
+      <view class='cash-text'>
+        <image class='cash-icon' src='../../image/icon/china_merchants_bank.jpg'></image>
+        <text class='cash-txt'>招商银行</text>
+      </view>
+      <view class='cash-number'>
+        <input type="digit" class='money-input' maxlength="10" placeholder="数额" value=''/>
+      </view>
+    </view>
+
+    <view class='cash-list'>
+      <view class='cash-text'>
+        <image class='cash-icon' src='../../image/icon/cq_rural_commerclal_bank.jpg'></image>
+        <text class='cash-txt'>重庆农村商业银行</text>
+      </view>
+      <view class='cash-number'>
+        <input type="digit" class='money-input' maxlength="10" placeholder="数额" value='' />
+      </view>
+    </view>
+
+    <view class='cash-list'>
+      <view class='cash-text'>
+        <image class='cash-icon' src='../../image/icon/cq_three_gorges_bank.png'></image>
+        <text class='cash-txt'>重庆三峡银行</text>
+      </view>
+      <view class='cash-number'>
+        <input type="digit" class='money-input' maxlength="10" placeholder="数额" value=''/>
+      </view>
+    </view>
+
+    <view class='cash-list'>
+      <view class='cash-text'>
+        <image class='cash-icon' src='../../image/icon/xiamen_bank.png'></image>
+        <text class='cash-txt'>厦门银行</text>
+      </view>
+      <view class='cash-number'>
+        <input type="digit" class='money-input' maxlength="10" placeholder="数额" value=''/>
+      </view>
+    </view>
+  </view>
+
+  <view class='submitSave'>
+    <button type="primary" loading="{{loading}}" disabled="{{disabled}}" bindtap="submitSave" class='saveSubmit'> 更新 </button>
+  </view>
+
+</view>

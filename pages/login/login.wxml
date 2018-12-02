@@ -1,0 +1,12 @@
+<!--pages/login/login.wxml-->
+<view class="container" >
+  <text class='title'>{{ title }}</text>
+
+  <view class='passwold-input'>
+    <input value="{{password}}" password='true' maxlength="18" placeholder='Key' bindinput="getPassword"/>
+  </view>
+
+  <view class='submit-button'>
+    <button type='primary' class='submit-click' bindtap="submitClick">进入账本</button>
+  </view>
+</view>

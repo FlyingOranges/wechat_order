@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  <scroll-view scroll-y='{{scrollY}}' class='msg-list' bindscroll='onScroll'>
+    <view wx:for="{{msgList}}" wx:key="id" class='msg-item' animation='{{item.wrapAnimation}}'>
+      <view id='{{item.id}}' class='msg' animation='{{item.animation}}' bindtouchstart='ontouchstart' bindtouchmove='ontouchmove' bindtouchend='ontouchend' bindtap='onListInfo'>
+        <image class='header-img' src="../../image/icon/money.jpg"></image>
+        <text class='user-name'>
+          <text class='account'>现金：200.00 银行卡: 321024.00 虚拟账户: 3641.00</text>
+          <text class='count-money'>{{item.userName}}</text>
+        </text>
+        <text class='msg-text'>{{item.msgText}}</text>
+      </view>
+      <view class='msg-menu'>
+        <view id='{{item.id}}' class='menu-delete' bindtap='onDeleteMsgTap' bindlongtap='onDeleteMsgLongtap'>
+          删除
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

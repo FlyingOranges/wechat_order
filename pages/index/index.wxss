@@ -1,0 +1,106 @@
+/**index.wxss**/
+
+.container {
+  width: 100%;
+  justify-content: initial;
+  padding: 0;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #f7f7f7;
+  overflow-x: hidden;
+}
+
+.count-money {
+  width: 100%;
+  background-color: #1873d6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.money-number {
+  display: block;
+  margin-top: 5px;
+  padding: 0;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  width: 100%;
+}
+
+.money-count {
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+
+.cash {
+  float: left;
+  height: 50px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+.cash-text {
+  float: left;
+  height: 50px;
+  line-height: 50px;
+  margin-left: 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cash-number {
+  float: right;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 10px;
+  color: #737475;
+}
+
+.cash-icon {
+  line-height: 50px;
+  vertical-align: middle;
+  height: 25px;
+  width: 25px;
+}
+
+.cash-txt {
+  line-height: 50px;
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+.cash-div {
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+.cash-title {
+  height: 20px;
+  display: block;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.cash-list {
+  padding: 0 10px 0 0;
+  display: block;
+  flex-direction: column;
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid #F7F7F7;
+}
+
+.cash-title-text-left {
+  float: left;
+  margin-left: 10px;
+}
+
+.cash-title-text-right {
+  float: right;
+  margin-right: 10px;
+}

@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/history/history",
+    "pages/record/record",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "Leo的私人钱包",
+    "navigationBarTextStyle": "#1873D6",
+    "backgroundColor": "#1873D6",
+    "navigationBarBackgroundColor": "#1873D6"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/asset.png",
+        "selectedIconPath": "image/asset-active.png",
+        "text": "家当"
+      },
+      {
+        "pagePath": "pages/record/record",
+        "iconPath": "image/statement.png",
+        "selectedIconPath": "image/statement-active.png",
+        "text": "记载"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "iconPath": "image/statistic.png",
+        "selectedIconPath": "image/statistic-active.png",
+        "text": "历史"
+      }
+    ]
+  }
+}

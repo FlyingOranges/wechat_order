@@ -1,0 +1,41 @@
+/* pages/login/login.wxss */
+
+.container {
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  justify-content: initial;
+}
+
+.title {
+  font-size: 25px;
+  color: #1873d6;
+}
+
+.passwold-input {
+  margin-top: 50px;
+  text-align: center;
+  border: 1px solid lightblue;
+  width: 60%;
+  height: 40px;
+  min-height: 40px;
+  line-height: 40px;
+  border-radius: 15px;
+  align-items: center;
+  vertical-align:middle;
+  justify-content: center;
+  display: inline-block;
+  padding-top: 15px;
+}
+
+.submit-button {
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+.submit-click {
+  background-color: #05aa88;
+  color: #fff;
+}
